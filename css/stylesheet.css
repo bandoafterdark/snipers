@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+}
+
+highlight {
+    color: rgb(235, 235, 70);
+}
+
+.navbar h1 {
+    display: inline-block;
+}
+
+.navbar {
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.07);
+    border: 5px solid #ffff00a1;
+    display: block;
+    justify-content: center;
+    margin: 10px;
+}
+
+.account {
+    background-color: rgba(72, 75, 75, 0.532);
+    border: none;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.07);
+    color: rgba(255, 255, 255, 0.866);
+    border: none;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.07);
+    color: rgba(255, 255, 255, 0.866);
+    border: none;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.account:hover,
+.menu:hover {
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgba(58, 53, 62, 0.4);
+}
+
+.navbar h1,
+.page-1 h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.367);
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+}
+
+#left {
+    float: left;
+    width: 100px;
+    padding-left: 30px;
+}
+
+#center {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+#right {
+    float: right;
+    width: 100px;
+    padding-right: 30px;
+}
+
+#container h3 {
+    font-family: 'Quicksand';
+    color: rgba(255, 255, 255, 0.866);
+}
+
+.instagram {}
+
+.tiktok {}
+
+.twitter {}
